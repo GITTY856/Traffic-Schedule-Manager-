@@ -140,12 +140,11 @@
   z-index: 1;
 }
 
-/* Update road spawn points */
 .road.horizontal {
   top: 50%;
   left: 0;
   width: 100%;
-  height: 200px; /* Wider road */
+  height: 200px;
   transform: translateY(-50%);
 }
 
@@ -153,7 +152,7 @@
   left: 50%;
   top: 0;
   height: 100%;
-  width: 200px; /* Wider road */
+  width: 200px;
   transform: translateX(-50%);
 }
 
@@ -400,7 +399,6 @@
   cursor: not-allowed;
 }
 
-/* Update vehicle styles */
 .vehicle {
    position: absolute;
   font-size: 28px;
@@ -435,7 +433,6 @@
   cursor: not-allowed;
 }
 
-/* Enhanced Decorations */
 .decorations {
   position: absolute;
   z-index: 0;
@@ -443,7 +440,6 @@
   height: 100%;
 }
 
-/* Tree Styles */
 .tree {
   position: absolute;
   font-size: 40px;
@@ -469,7 +465,6 @@
   filter: drop-shadow(0 0 10px rgba(0,0,0,0.2));
 }
 
-/* Building Styles */
 .building {
   position: absolute;
   box-shadow: 0 0 15px rgba(0,0,0,0.4);
@@ -530,7 +525,6 @@
   );
 }
 
-/* Construction Site */
 .construction {
   position: absolute;
   background-color: #654321;
@@ -566,7 +560,6 @@
   border-radius: 3px;
 }
 
-/* Bush Styles */
 .bush {
   position: absolute;
   width: 50px;
@@ -577,7 +570,6 @@
   z-index: 1;
 }
 
-/* Positioning */
 .tree.nw1 { top: 10%; left: 10%; }
 .tree.nw2 { top: 15%; left: 20%; }
 .building.nw { top: 5%; left: 5%; width: 80px; height: 120px; }
